@@ -897,6 +897,8 @@ dependencies = [
     { name = "notebook" },
     { name = "numpy" },
     { name = "pandas" },
+    { name = "pillow" },
+    { name = "pytorch-msssim" },
     { name = "torch" },
     { name = "torchvision" },
 ]
@@ -907,6 +909,8 @@ requires-dist = [
     { name = "notebook", specifier = ">=7.6.0" },
     { name = "numpy", specifier = ">=2.5.1" },
     { name = "pandas", specifier = ">=3.0.3" },
+    { name = "pillow", specifier = ">=12.3.0" },
+    { name = "pytorch-msssim", specifier = ">=1.0.0" },
     { name = "torch", specifier = ">=2.12.1" },
     { name = "torchvision", specifier = ">=0.27.1" },
 ]
@@ -1521,6 +1525,18 @@ source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/f7/ff/3cc9165fd44106973cd7ac9facb674a65ed853494592541d339bdc9a30eb/python_json_logger-4.1.0.tar.gz", hash = "sha256:b396b9e3ed782b09ff9d6e4f1683d46c83ad0d35d2e407c09a9ebbf038f88195", size = 17573, upload-time = "2026-03-29T04:39:56.805Z" }
 wheels = [
     { url = "https://pypi.tuna.tsinghua.edu.cn/packages/27/be/0631a861af4d1c875f096c07d34e9a63639560a717130e7a87cbc82b7e3f/python_json_logger-4.1.0-py3-none-any.whl", hash = "sha256:132994765cf75bf44554be9aa49b06ef2345d23661a96720262716438141b6b2", size = 15021, upload-time = "2026-03-29T04:39:55.266Z" },
+]
+
+[[package]]
+name = "pytorch-msssim"
+version = "1.0.0"
+source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
+dependencies = [
+    { name = "torch" },
+]
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/69/43/fd181aef46e96ed025f5056efa1c45e63c93d377fbe7ea784a21ce058d03/pytorch_msssim-1.0.0.tar.gz", hash = "sha256:53273f03ce5c435f706f49feb5110a8afe90b2519484b0fe0df9639670106d0b" }
+wheels = [
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/e2/8c/856047f955acc30179e9255fdc488059ca22f0938519523d53494f7cfee8/pytorch_msssim-1.0.0-py3-none-any.whl", hash = "sha256:0b4b7bbf7035fe9dc8084244237aac13b1f104852c45b63a7e9fab4363bede54" },
 ]
 
 [[package]]
