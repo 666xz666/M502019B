@@ -8,9 +8,11 @@ dependencies = [
     "matplotlib>=3.11.0",
     "notebook>=7.6.0",
     "numpy>=2.5.1",
+    "opencv-python-headless>=5.0.0.93",
     "pandas>=3.0.3",
     "pillow>=12.3.0",
     "pytorch-msssim>=1.0.0",
+    "scikit-learn>=1.9.0",
     "torch>=2.12.1",
     "torchvision>=0.27.1",
 ]
